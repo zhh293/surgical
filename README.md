@@ -29,6 +29,12 @@
      - ViT-H: sam_vit_h_4b8939.pth (推荐)
      - ViT-L: sam_vit_l_0b3195.pth
      - ViT-B: sam_vit_b_01ec64.pth
+    
+     - # 下载sam预训练模型
+    wget https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth
+    # 如果想要分割的效果好请使用 sam_vit_h_4b8939.pth 权重
+    # wget https://dl.fbaipublicfiles.com/segment_anything/sam_vit_l_0b3195.pth
+    # wget https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth
 
 4. 设置环境变量（可选）:
    ```
