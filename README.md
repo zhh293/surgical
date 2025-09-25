@@ -26,15 +26,15 @@
 3. 下载SAM模型权重文件:
    - 从官方网站下载SAM模型权重：https://github.com/facebookresearch/segment-anything#model-checkpoints
    - 支持的模型类型：
-     - ViT-H: sam_vit_h_4b8939.pth (推荐)
+     - ViT-H: sam_vit_h_4b8939.pth 
      - ViT-L: sam_vit_l_0b3195.pth
-     - ViT-B: sam_vit_b_01ec64.pth
+     - ViT-B: sam_vit_b_01ec64.pth(默认)
     
-     - # 下载sam预训练模型
+     - 下载sam预训练模型
     wget https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth
-    # 如果想要分割的效果好请使用 sam_vit_h_4b8939.pth 权重
-    # wget https://dl.fbaipublicfiles.com/segment_anything/sam_vit_l_0b3195.pth
-    # wget https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth
+     如果想要分割的效果好请使用 sam_vit_h_4b8939.pth 权重
+     wget https://dl.fbaipublicfiles.com/segment_anything/sam_vit_l_0b3195.pth
+     wget https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth
 
 4. 设置环境变量（可选）:
    ```
